@@ -1,0 +1,7 @@
+ngb-carousel{
+    text-align: center;
+}
+  
+ngb-carousel.carousel-control-prev{
+      color: brown;
+  }

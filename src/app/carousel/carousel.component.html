@@ -1,0 +1,35 @@
+<ngb-carousel *ngIf="images">
+
+
+    <ng-template *ngFor="let imagen of images"  ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src='{{urlImagenes+imagen.rutaImagen}}' alt="Random first slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>{{imagen.nombreImagen}}</h3>
+        <p>{{imagen.textoImagen}}</p>
+      </div>
+    </ng-template>
+
+
+
+   <!--  <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src='assets/Imagenes/3kayakYPresa.jpeg' alt="Random second slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img src='assets/Imagenes/3kayakYPresa.jpeg' alt="Random third slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>Third slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
+   -->
