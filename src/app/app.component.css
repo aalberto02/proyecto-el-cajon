@@ -1,0 +1,8 @@
+.fixed-header {
+    position: fixed;
+    z-index:999;
+    height: 50px;
+}
+.unsticky-element{
+    display: block;
+}

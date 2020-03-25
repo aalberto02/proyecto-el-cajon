@@ -10,18 +10,24 @@ export class CarouselComponent implements OnInit {
   images = [
     {
       rutaImagen :'3kayakYPresa.jpeg',
-      textoImagen : 'randomText',
-      nombreImagen:'NombreImagen'
+      textoImagen : '',
+      // textoImagen : 'randomText',
+      nombreImagen:''
+      // nombreImagen:'NombreImagen'
     },
     {
       rutaImagen :'arbolRosado.jpeg',
-      textoImagen : 'randomText',
-      nombreImagen:'NombreImagen'
+      textoImagen : '',
+      // textoImagen : 'randomText',
+      nombreImagen:''
+      // nombreImagen:'NombreImagen'
     },
     {
       rutaImagen :'tunel.jpeg',
-      textoImagen : 'randomText',
-      nombreImagen:'NombreImagen'
+      textoImagen : '',
+      // textoImagen : 'randomText',
+      nombreImagen:''
+      // nombreImagen:'NombreImagen'
     },
   ]
   // .map((img) => this.urlImagenes+img);

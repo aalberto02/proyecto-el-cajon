@@ -1,0 +1,72 @@
+<ng-template #content let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">Profile update</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <form>
+        <div class="form-group">
+          <label for="dateOfBirth">Nombre</label>
+          <div class="input-group">
+            <input id="name" class="form-control"  name="dp" >
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="dateOfBirth">Edad</label>
+          <div class="input-group">
+            <input id="name" class="form-control"  name="dp" >
+          </div>
+        </div>
+        
+        
+        <div class="form-group">
+          <label for="dateOfBirth">Celular</label>
+          <div class="input-group">
+            <input id="name" class="form-control"  name="dp" >
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="dateOfBirth">Correo</label>
+          <div class="input-group">
+            <input id="name" class="form-control"  name="dp" >
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="dateOfBirth">Cantidad Niños:</label>
+          <div class="input-group">
+            <input id="name" class="form-control"  name="dp" >
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="dateOfBirth">Cantidad Adultos:</label>
+          <div class="input-group">
+            <input id="name" class="form-control"  name="dp" >
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="dateOfBirth">Pertenece a un grupo o institucion? </label>
+          <div class="input-group">
+            <input id="name" class="form-control"  name="dp" >
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="dateOfBirth">Notas</label>
+          <div class="input-group">
+            <input id="name" class="form-control"  name="dp" >
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Save</button>
+    </div>
+  </ng-template>
+  
+  <button class="btn btn-lg btn-outline-primary" (click)="open(content)">Haz una cita</button>
+  
+  <hr>
+  
+  <pre>{{ closeResult }}</pre>
+  
